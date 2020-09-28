@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'OldSport2';
+    src: local('OldSport2'), url(./Font/OldSport02AthleticNcv-E0gj.ttf) format('truetype');
+}
+#header {
+    padding: 5px;
+    text-align: center;
+    font-family: OldSport2, Arial, Helvetica, sans-serif;
+}
+#navigation {
+    background-color: #a8a7ae;
+}
+#navigation a {
+    color: #000000;
+    font-family: OldSport2, Arial, Helvetica, sans-serif;
+}
+.progress {
+    height: 50px;
+}
+.tracker, .titles {
+    font-family: OldSport2, Arial, Helvetica, sans-serif;
+}
+#infoForm {
+    border: #a8a7ae solid 3px;
+    padding: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
